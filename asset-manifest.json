@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/My_Portfolio/static/css/main.f9416299.css",
+    "main.js": "/My_Portfolio/static/js/main.27f27a32.js",
+    "static/media/youtube.png": "/My_Portfolio/static/media/youtube.c7c69e9204a542acc7fb.png",
+    "static/media/photo.png": "/My_Portfolio/static/media/photo.9c03fc3e44df6b637ab0.png",
+    "static/media/gemini.png": "/My_Portfolio/static/media/gemini.09b41a3cc250096abe43.png",
+    "static/media/java1.png": "/My_Portfolio/static/media/java1.7623bcc6a0958543af8a.png",
+    "static/media/insta.webp": "/My_Portfolio/static/media/insta.6904263529c897e90d78.webp",
+    "static/media/React.png": "/My_Portfolio/static/media/React.f9736c852ee8df4ede69.png",
+    "static/media/databse.png": "/My_Portfolio/static/media/databse.c82c431b986ee7d52636.png",
+    "static/media/CSS-Logo-2011.png": "/My_Portfolio/static/media/CSS-Logo-2011.3f479584350aaf688826.png",
+    "static/media/JavaScript-Logo.png": "/My_Portfolio/static/media/JavaScript-Logo.ec1c0379d0e87cc38946.png",
+    "static/media/html.webp": "/My_Portfolio/static/media/html.9a0a284f428e3e9083bf.webp",
+    "static/media/linkdin.png": "/My_Portfolio/static/media/linkdin.7c699ecf90f007b5d832.png",
+    "static/media/git.webp": "/My_Portfolio/static/media/git.97cae9c05d0be13c37f3.webp",
+    "index.html": "/My_Portfolio/index.html",
+    "main.f9416299.css.map": "/My_Portfolio/static/css/main.f9416299.css.map",
+    "main.27f27a32.js.map": "/My_Portfolio/static/js/main.27f27a32.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9416299.css",
+    "static/js/main.27f27a32.js"
+  ]
+}
