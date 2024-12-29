@@ -116,12 +116,12 @@
     }
     .projectDesc{
         margin-top: -2rem;
-        margin-left: -4rem;
+        margin-left: -6rem;
     }
     #projects .gemini{
-        height: 180px;
+        height: 170px;
         width: auto;
-        margin-right: 4rem;
+        margin-right: 6.6rem;
         
     }
     .secondTile{
@@ -132,19 +132,16 @@
         flex-direction: column;
     }
     #projects .youtube{
-        height: 180px;
+        height: 170px;
         width: auto;
-        margin-right: 4rem;
+        margin-right: 6.6rem;
     }
     .projectDesc2{
-        margin-left: -9rem;
+        margin-left: -11rem;
     }
 }
 .link{
     padding-left: 0.5rem;
     color: rgb(247, 242, 80);
     cursor: pointer;
-}
-.link:hover{
-
 }
