@@ -1,0 +1,143 @@
+#skills{
+
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+}
+.skillDesc{
+    max-width: 80%;
+    padding-top: 15px;
+}
+.title{
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: xx-large;
+}
+.skillBars{
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+
+}
+.skillBar{
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background-color: #373737;
+}
+.skillBar:hover{
+    background-color: #4b4b4b;
+}
+.skillTextHtml{
+    padding-left: 4.5rem;
+}
+.skillTextCss{
+    padding-left: 2.6rem;
+}
+.skillTextJs{
+    padding-left: 3rem;
+}
+.skillTextReact{
+    padding-left: 4.2rem;
+}
+.skillTextJava{
+    padding-left: 5rem;
+}
+.skillTextData{
+    padding-left: 5rem;
+}
+.html{
+    padding-left: 34px;
+    height: 60px;
+    width: auto;
+    
+}
+.css{
+    padding-top: 5px;
+    height: 75px;
+    width: auto;
+}
+.js{
+    padding-top: 5px;
+    height: 70px;
+    width: auto;
+}
+.react{
+    padding-top: 10px;
+    padding-left: 20px;
+    height: 70px;
+    width: auto;
+}
+.java{
+    padding-top: 10px;
+    padding-left: 30px;
+    height: 70px;
+    width: auto;
+}
+.database{
+    padding-top: 10px;
+    padding-left: 30px;
+    height: 70px;
+    width: auto;
+}
+@media screen and (max-width:650px){
+    
+    .skillBar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .skillTextHtml{
+        margin-left: -5rem;
+        padding-top: 1rem;
+    }
+    .skillTextCss{
+        margin-left: -3rem;
+        padding-top: 1rem;
+    }
+    .skillTextJs{
+        margin-left: -3rem;
+        padding-top: 1rem;
+    }
+    .skillTextReact{
+        margin-left: -5rem;
+        padding-top: 1rem;
+    }
+    .skillTextJava{
+        margin-left: -5rem;
+        padding-top: 1rem;
+    }
+    .skillTextData{
+        margin-left: -5rem;
+        padding-top: 1rem;
+    }
+    .html{
+        margin-left: -3rem;
+    }
+    .react{
+        margin-left: -2rem;
+    }
+    .java{
+        margin-left: -2rem;
+    }
+    .database{
+        margin-left: -2rem;
+    }
+    .skillTextData{
+        
+        padding-left: -3rem;
+    }
+    .hello{
+        font-size: 4.5vw;
+    }
+}

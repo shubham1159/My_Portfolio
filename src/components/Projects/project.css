@@ -1,0 +1,150 @@
+#projects{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5rem;
+    background-color: #343434;
+    
+}
+
+.projectList{
+    margin-top: 2.5rem;
+    margin-left: 2.5rem;
+}
+
+#projects .gemini{
+    height: 250px;
+    width: auto;
+    border-radius: 15px;
+    opacity: 0;
+    transform: scale(0);
+    animation: spreadFromCenter 3s ease-out forwards infinite;
+
+}
+#projects .youtube{
+    height: 250px;
+    margin-top: -1.8rem;
+    width: auto;
+    border-radius: 15px;
+    opacity: 0;
+    transform: scale(0);
+    animation: spreadFromCenter 3s ease-out forwards infinite;
+
+}
+#projects img:hover{
+    animation-play-state: paused;
+}    
+
+
+@keyframes spreadFromCenter {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    50% {
+        opacity: 0.7;
+        transform: scale(1.1);    }
+    100% {
+        opacity: 1;
+        transform: scale(1);    }
+}
+
+.firstTile{
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background-color: #202020;
+    gap: 90px;
+    max-width: 89%;
+    
+}
+.projectDesc{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 50%;   
+}
+.projectDesc h2{
+    color: yellow;
+}
+.projectDesc2 h2{
+    color: yellow;
+}
+.projectDesc p{
+
+    padding-top: 1rem;
+    min-height: 60px;
+    white-space: pre-wrap;
+    text-align: center;
+}
+.secondTile{
+    display: flex;
+    margin-left: 3.9rem;
+    margin-top: 1rem;
+    padding: 1.5rem 2rem;
+    padding-top: 3rem;
+    border-radius: 0.5rem;
+    background-color: #202020;
+    gap: 70px;
+    max-width: 89%;
+    margin-bottom: 1.5rem;
+}
+.projectDesc2{
+    margin-top: -1rem;
+    padding-left: 4rem;
+    max-width: 55%;
+}
+.projectDesc2 p{
+    padding-top: 1rem;
+}
+@media screen and (max-width:725px){
+    
+    .firstTile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .projectDesc{
+        margin-top: -2rem;
+        margin-left: -4rem;
+    }
+    #projects .gemini{
+        height: 180px;
+        width: auto;
+        margin-right: 4rem;
+        
+    }
+    .secondTile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    #projects .youtube{
+        height: 180px;
+        width: auto;
+        margin-right: 4rem;
+    }
+    .projectDesc2{
+        margin-left: -9rem;
+    }
+}
+.link{
+    padding-left: 0.5rem;
+    color: rgb(247, 242, 80);
+    cursor: pointer;
+}
+.link:hover{
+
+}

@@ -1,0 +1,58 @@
+.navbar{
+    height: 70px;
+    width: 100vw;
+    max-width: 100%;
+    padding: 5px 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 290px;
+    position: fixed;
+    top: 0;
+    padding-top: 25px;
+    z-index: 3;
+    background-color: #202020;
+    
+}
+.navbar span{
+    
+    font-weight: 300;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    font-size: medium;
+    margin-right: 19px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media screen and (max-width:650px) {
+    .navbar{
+        right: -8px;
+        gap: 5px;
+    }
+    .navbar span{
+        font-size: 3.5vw;
+
+    }
+    .menu{
+        padding-left: 9px;
+        gap: 10px;
+    }
+}
+@media screen and (max-width:1272px){
+    .navbar{
+        margin-left: -10px;
+    }
+}
+.menuList:hover{
+    color: yellow;
+    padding-bottom: 0.2rem;
+    border-bottom: 3px solid yellow;
+}
+
