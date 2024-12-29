@@ -33,7 +33,7 @@
 }
 @media screen and (max-width:650px) {
     .navbar{
-        right: -2px;
+        right: -1px;
         gap: 5px;
     }
     .navbar span{
